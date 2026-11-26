@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Urban Water Accounting
+title: Tool 4 - Urban Water Accounting
 permalink: /Urban_Water_Accounting/
-parent: PUW
-nav_order: 1
+parent: TOOLKIT - Water-Sensitive Infrastructure Development
+nav_order: 5
 nav_exclude: true
-search_exclude: true
-robots: noindex
 ---
 
 ![Banner]({{ site.baseurl }}/assets/UrbanWaterAccounting.png){: style="width:100%; height:auto;" }
@@ -26,9 +24,9 @@ Urban water accounting is a comprehensive analytical tool designed to systematic
 | **End Users** | •	Municipal water managers<br>• City planning departments<br>• Local government water resource teams<br>• Small to medium-sized municipalities |
 | **Background** | The development of the tool establishes a simplified method that provides quantitative assessment of water interactions in urban areas. The tool is based on the studies of (Kenway et al., 2011; Torres López et al., 2019) combined and adapted to the context of urban water management system in the three case studies. |
 | **Description** | The Excel file, which forms the core of the tool, is structured into four interconnected sheets:<br>• **Water Sources and Supply**: Quantifies water extraction from various environmental sources and its distribution to different user categories within the urban system.<br>• **Water Discharge**: Assesses the volume and nature of water discharged back into the environment, categorized by user types and treatment status.<br>• **Flow Diagram**: Provides a visual representation synthesizing the data from the previous two sheets, illustrating the comprehensive water flow within the urban ecosystem.<br>• **Performance Indicators**: Calculates key metrics to evaluate the efficiency and effectiveness of urban water management practices. |
-| **Strengths and Limitations** | **Strengths:** Comprehensive Framework, User-friendly format, Communicative tool, Enhanced stakeholder engagement, Decision support tool, Minimal training.<br> **Weaknesses:** Data dependency, limited advanced analytical capabilities, time investment for setup, potential for oversimplification.|
+| **Strengths and Limitations** | **Strengths:** Comprehensive Framework, User-friendly format, Communicative tool, Enhanced stakeholder engagement, Decision support tool, Minimal training.<br> **Limitations:** Data dependency, limited advanced analytical capabilities, time investment for setup, potential for oversimplification.|
 | **Requirements  (Instruments Used)**  | Software: Microsoft Office – Excel (Excel 2016 or later is recommended) |
-| **Definitions and Terminology** | Water Balance |
+| **Keywords** | Water Balance |
 
 ## Tool Manual
 
@@ -51,30 +49,31 @@ Users of the Urban Water Accounting Tool must systematically navigate three crit
   <figcaption>Figure 14: Key Steps for using Urban Water Accounting.</figcaption>
 </figure>
 
-##### 1. Boundaries Definition
+### 1. Boundaries Definition
 
-•	Spatial: Determine the geographical area covered by your analysis (e.g., city limits, watershed boundaries).
-•	Temporal: Specify the time period for data collection (e.g., annual, monthly).
+- **Spatial:** Determine the geographical area covered by your analysis (e.g., city limits, watershed boundaries).
+-	**Temporal:** Specify the time period for data collection (e.g., annual, monthly).
 
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/UWA/Figure_15.png" alt="Figure_15" style="max-width: 100%; height: auto;" />
   <figcaption>Figure 15: Examples of spatial boundaries for the Urban Water Accounting tool.</figcaption>
 </figure>
 
-##### 2. Data Collection
+### 2. Data Collection
 
-Before entering data, it is crucial to understand the key components of the urban water system: 
-•	Water Sources: Natural or artificial reservoirs from which water is extracted for urban use, including surface water (rivers, lakes) and groundwater aquifers.
-•	Water Supply: The infrastructure and processes used to collect, treat, and distribute water to users, including treatment plants and distribution networks
-•	Water Users: Various sectors consuming water, such as residential, commercial, industrial, and public facilities
-•	Water Treatment: Facilities and processes that clean and purify wastewater before it's returned to the environment
-•	Water Discharge: The release of treated wastewater back into natural water bodies or for reuse purposes.
+Before entering data, it is crucial to understand the key components of the urban water system:<br> 
+-	**Water Sources:** Natural or artificial reservoirs from which water is extracted for urban use, including surface water (rivers, lakes) and groundwater aquifers.<br>
+-	**Water Supply:** The infrastructure and processes used to collect, treat, and distribute water to users, including treatment plants and distribution networks<br>
+-	**Water Users:** Various sectors consuming water, such as residential, commercial, industrial, and public facilities<br>
+-	**Water Treatment:** Facilities and processes that clean and purify wastewater before it's returned to the environment<br>
+-	**Water Discharge:** The release of treated wastewater back into natural water bodies or for reuse purposes.<br>
+
 To gather the necessary data: 
 1.	Identify relevant stakeholders for each component (e.g., water utilities, industrial users, treatment plant operators).
 2.	Contact these stakeholders directly to request the required information.
 3.	Consult the guidelines provided with the Urban Water Accounting Tool for specific data sources and collection methods.
 
-##### 3. Data Entry
+### 3. Data Entry
 
 Once you have collected the necessary information, proceed to enter the data into the four sheets of the Excel file: 
 1.	Water Supply Sheet:<br> 
@@ -112,19 +111,19 @@ Table 6: Performance indicators of water supply and discharge systems in Sarihar
 | Wastewater potential for water supply | Total use replaceability   | Ratio of the total water discharged from the economies to the environment (except urban runoff) divided by the total water volume used by the different users | %             | 65%       |
 
 Based on the provided performance indicators we can conclude that:<br> 
-•	**Intensity of water use (0.44 GL/year/Km²):** This low value suggests that a large portion of the annual precipitation likely follows natural water cycles (infiltration, runoff, evapotranspiration) rather than being consumed by human activities. While for the built-up areas, it could indicate limited water infrastructure and usage in the developed parts of the village.<br>
-•	**Inputs/outputs ratio (99.826%):** The near-balance between water inflows and outflows implies minimal water retention or loss within the system, suggesting efficient water cycling.<br>
-•	**Supply centralization (8%) vs. decentralization (92%):** The high decentralization rate indicates heavy reliance on direct extraction methods (i.e., groundwater) rather than municipal supply, which may present challenges for water quality control and sustainable management.<br> 
-•	**Total use replaceability (65%):** This moderate value suggests significant potential for wastewater reuse, indicating opportunities to enhance water efficiency and reduce freshwater demand.
+-	**Intensity of water use (0.44 GL/year/Km²):** This low value suggests that a large portion of the annual precipitation likely follows natural water cycles (infiltration, runoff, evapotranspiration) rather than being consumed by human activities. While for the built-up areas, it could indicate limited water infrastructure and usage in the developed parts of the village.<br>
+-	**Inputs/outputs ratio (99.826%):** The near-balance between water inflows and outflows implies minimal water retention or loss within the system, suggesting efficient water cycling.<br>
+-	**Supply centralization (8%) vs. decentralization (92%):** The high decentralization rate indicates heavy reliance on direct extraction methods (i.e., groundwater) rather than municipal supply, which may present challenges for water quality control and sustainable management.<br> 
+-	**Total use replaceability (65%):** This moderate value suggests significant potential for wastewater reuse, indicating opportunities to enhance water efficiency and reduce freshwater demand.
 
 Based on the provided performance indicators and their interpretations, we can recommend the following:<br> 
-•	**Enhance Water Infrastructure in Built-Up Areas:** The low intensity of water use (0.44 GL/year/Km²) suggests limited water infrastructure. Investments in expanding and upgrading water supply systems in Sariharjo could improve access and efficiency.<br> 
-•	**Promote Decentralized Water Management:** With 92% of water supply being decentralized, efforts should focus on improving the quality, monitoring, and sustainability of decentralized sources especially groundwater. This could include implementing regulations, providing technical support, and encouraging community-based management.<br> 
-•	**Increase Wastewater Reuse:** The 65% total use replaceability highlights significant potential for wastewater reuse. Introducing or expanding wastewater treatment facilities and promoting treated wastewater for non-potable uses (e.g., irrigation or industrial processes) could reduce freshwater demand.<br> 
-•	**Integrate Nature-Based Solutions (NBS):** To complement existing systems, consider implementing NBS such as permeable pavements to enhance water retention, reduce runoff, and improve water quality.<br> 
-•	**Strengthen Data Collection Systems:** The near-balance in inputs/outputs (99.826%) indicates efficient water cycling but may also mask unaccounted losses due to limited data. Installing metering systems at the village level and improving data collection on water flows would provide more accurate insights for planning.<br> 
-•	**Encourage Public-Private Partnerships:** Collaborations with private entities can bring expertise and funding to improve infrastructure, implement innovative technologies, and enhance system efficiency.<br> 
-•	**Promote Awareness and Community Engagement:** Educating communities about sustainable water use practices and involving them in decentralized water management can foster long-term resilience.
+-	**Enhance Water Infrastructure in Built-Up Areas:** The low intensity of water use (0.44 GL/year/Km²) suggests limited water infrastructure. Investments in expanding and upgrading water supply systems in Sariharjo could improve access and efficiency.<br> 
+-	**Promote Decentralized Water Management:** With 92% of water supply being decentralized, efforts should focus on improving the quality, monitoring, and sustainability of decentralized sources especially groundwater. This could include implementing regulations, providing technical support, and encouraging community-based management.<br> 
+-	**Increase Wastewater Reuse:** The 65% total use replaceability highlights significant potential for wastewater reuse. Introducing or expanding wastewater treatment facilities and promoting treated wastewater for non-potable uses (e.g., irrigation or industrial processes) could reduce freshwater demand.<br> 
+-	**Integrate Nature-Based Solutions (NBS):** To complement existing systems, consider implementing NBS such as permeable pavements to enhance water retention, reduce runoff, and improve water quality.<br> 
+-	**Strengthen Data Collection Systems:** The near-balance in inputs/outputs (99.826%) indicates efficient water cycling but may also mask unaccounted losses due to limited data. Installing metering systems at the village level and improving data collection on water flows would provide more accurate insights for planning.<br> 
+-	**Encourage Public-Private Partnerships:** Collaborations with private entities can bring expertise and funding to improve infrastructure, implement innovative technologies, and enhance system efficiency.<br> 
+-	**Promote Awareness and Community Engagement:** Educating communities about sustainable water use practices and involving them in decentralized water management can foster long-term resilience.
 
 ## Access to the tool
 
