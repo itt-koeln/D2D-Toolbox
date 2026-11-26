@@ -3,8 +3,8 @@ layout: page
 title: Tool 10 - Rooftop Rainwater Harvesting Calculator
 permalink: /Rooftop_Rainwater_Harvesting_Calculator/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 11
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Rooftop Rainwater Harvesting Calculator.png){: style="width:100%; height:auto;" }

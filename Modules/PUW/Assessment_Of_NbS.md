@@ -3,8 +3,8 @@ layout: page
 title: Tool 9 - Assessment of Impact and Effectiveness of Selected NbS 
 permalink: /Assessment_of_Selected_NbS/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 10
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Assessment for NbS impact and effectiveness of selected NbS.png){: style="width:100%; height:auto;" }

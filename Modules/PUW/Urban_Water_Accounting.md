@@ -3,8 +3,8 @@ layout: page
 title: Tool 4 - Urban Water Accounting
 permalink: /Urban_Water_Accounting/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 5
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/UrbanWaterAccounting.png){: style="width:100%; height:auto;" }

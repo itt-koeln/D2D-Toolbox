@@ -3,8 +3,8 @@ layout: page
 title: Abbreviations and Definitions
 permalink: /Abbreviations and Definitions/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 14
-nav_exclude: true
 ---
 
 # Abbreviations

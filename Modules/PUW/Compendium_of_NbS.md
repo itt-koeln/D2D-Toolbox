@@ -3,8 +3,8 @@ layout: page
 title: Tool 7 - Compendium of Nature-based Solutions for Water Resources Management
 permalink: /Compendium_of_NbS/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 8
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Compendium of Nature based Solutions for Water Resources Management Urban and Peri-urban Areas.png){: style="width:100%; height:auto;" }

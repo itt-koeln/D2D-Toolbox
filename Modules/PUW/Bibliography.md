@@ -3,8 +3,8 @@ layout: page
 title: Bibliography
 permalink: /Bibliography/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 15
-nav_exclude: true
 ---
 
 # Bibliography

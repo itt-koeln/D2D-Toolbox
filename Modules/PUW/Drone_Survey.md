@@ -3,8 +3,8 @@ layout: page
 title: Tool 6 - Drone Survey
 permalink: /Drone_Survey/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 7
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Drone Survey.png){: style="width:100%; height:auto;" }

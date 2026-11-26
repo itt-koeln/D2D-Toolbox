@@ -3,8 +3,8 @@ layout: page
 title: Introduction to the Toolkit 
 permalink: /Introduction/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 1
-nav_exclude: true
 ---
 
 # Introduction to the Toolkit

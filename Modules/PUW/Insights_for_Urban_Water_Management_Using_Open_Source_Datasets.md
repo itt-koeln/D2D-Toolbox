@@ -3,8 +3,8 @@ layout: page
 title: Tool 5 - Insights for Urban Water Management using Open-Source Datasets
 permalink: /Insights_for_Urban_Water_Management_using_Open_Source_Datasets/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 6
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Identification and Assessments of Ecosystems Services (ES).png){: style="width:100%; height:auto;" }

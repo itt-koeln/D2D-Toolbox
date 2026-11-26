@@ -3,8 +3,8 @@ layout: page
 title: Tool 3 - Assessment of Local Perception toward Nature-based Solutions (NbS)
 permalink: /Assessment_of_Local_Perception_towards_NbS/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 4
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Assessment of Local Perception of NbS.png){: style="width:100%; height:auto;" }

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TOOLKIT - Water-Sensitive Infrastructure Development
-parent: PUW
+parent: Projects
 nav_order: 1
 ---
 

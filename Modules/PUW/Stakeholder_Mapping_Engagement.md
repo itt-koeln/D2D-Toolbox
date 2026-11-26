@@ -3,8 +3,8 @@ layout: page
 title: Tool 1 - Stakeholder Mapping and Engagement
 permalink: /Stakeholder_Mapping_and_Engagement/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 2
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Stakeholder Mapping and Engagement.png){: style="width:100%; height:auto;" }

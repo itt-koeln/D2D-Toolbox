@@ -3,8 +3,8 @@ layout: page
 title: Tool 11 - Hydrological and Hydraulic Modelling 
 permalink: /Hydrological_and_Hydraulic_Modelling/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 12
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Hydrological and hydraulically modelling.png){: style="width:100%; height:auto;" }

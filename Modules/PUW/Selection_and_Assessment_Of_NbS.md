@@ -3,8 +3,8 @@ layout: page
 title: Tool 8 - Selection and Assessment of Potential Nature-based Solutions (NbS) 
 permalink: /Selection_and_Assessment_of_NbS/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 9
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Selection and Assessment of potential NbS.png){: style="width:100%; height:auto;" }

@@ -3,8 +3,8 @@ layout: page
 title: Tool 2 - Identification and Assessment of Ecosystem Services
 permalink: /Identification_and_Assessment_of_Ecosystem_Services/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 3
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Identification and Assessments of Ecosystems Services (ES).png){: style="width:100%; height:auto;" }

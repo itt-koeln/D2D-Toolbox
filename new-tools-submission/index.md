@@ -1,7 +1,7 @@
 ---
 layout: default
 title: New tools submission
-nav_order: 3
+nav_order: 5
 has_children: true
 permalink: /new-tools-submission/
 ---

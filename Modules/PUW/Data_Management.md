@@ -3,8 +3,8 @@ layout: page
 title: Tool 12 - Data Management and Visualization Support
 permalink: /Data_Management_and_Visualization_Support/
 parent: TOOLKIT - Water-Sensitive Infrastructure Development
+grand_parent: Projects
 nav_order: 13
-nav_exclude: true
 ---
 
 ![Banner]({{ site.baseurl }}/assets/Headers/Data management and Visualization Support.png){: style="width:100%; height:auto;" }
