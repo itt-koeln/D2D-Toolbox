@@ -2,7 +2,7 @@ title: D2D Toolbox
 description: Natural Resources and Development – Data to Decision Toolbox (ITT, TH Köln)
 remote_theme: just-the-docs/just-the-docs
 
-url: "https://GITHUB_USERNAME.github.io"
+url: "https://itt-koeln.github.io"
 baseurl: "/D2D-Toolbox"
 
 plugins:
