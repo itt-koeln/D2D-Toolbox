@@ -30,11 +30,11 @@ aux_links:
 aux_links_new_tab: false
 
 nav_external_links:
-  - title: "ITT – TH Köln"
-    url: https://www.th-koeln.de/itt
+  - title: "Faculty 12 – TH Köln"
+    url: https://www.th-koeln.de/en/spatial-development-and-infrastructure-systems/faculty-of-spatial-development-and-infrastructure-systems_72476.php
     hide_icon: false
 
-footer_content: "D2D Toolbox · Institute for Technology and Resources Management in the Tropics and Subtropics (ITT), TH Köln. Content contributed by ITT staff and students."
+footer_content: "D2D Toolbox · Faculty of Spatial Development and Infrastructure Systems (Faculty 12), TH Köln – Institute for Technology and Resources Management in the Tropics and Subtropics (ITT)."
 
 callouts_level: quiet
 callouts:
