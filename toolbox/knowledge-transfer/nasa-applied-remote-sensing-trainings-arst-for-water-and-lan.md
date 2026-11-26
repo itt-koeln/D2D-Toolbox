@@ -1,15 +1,18 @@
 ---
-layout: default
+layout: tool
 title: "NASA Applied Remote Sensing Trainings (ARST) for water and land resources"
 parent: Knowledge Transfer
 grand_parent: D2D Toolbox
 nav_order: 4
 permalink: /toolbox/knowledge-transfer/nasa-applied-remote-sensing-trainings-arst-for-water-and-lan/
+summary: "Lists NASA ARSET training webinars on remote sensing for water budgets, drought, agriculture, water quality, land degradation, and indigenous land management."
+authors: ""
+year: "2020"
+kind: training
+topics: []
+software: ["MODIS", "Landsat", "AppEEARS", "Google Earth Engine", "QGIS"]
+keywords: ["remote sensing training", "drought monitoring", "water quality", "land degradation"]
 ---
-
-# NASA Applied Remote Sensing Trainings (ARST) for water and land resources
-
-*Posted 2020-04-30*
 
 ### ***1. Introductory Webinar: Using Earth Observations to Monitor Water Budgets for River Basin Management:***
 

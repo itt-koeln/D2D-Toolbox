@@ -1,21 +1,22 @@
 ---
-layout: default
+layout: tool
 title: "J2000-S (water and nutrient balance model)"
 parent: Data Processing
 grand_parent: D2D Toolbox
 nav_order: 7
 permalink: /toolbox/data-processing/j2000-s-water-and-nutrient-balance-model/
+summary: "Physically-based, fully distributed hydrological model with nutrient transport routines combining J2000 and SWAT, run in the JAMS framework."
+authors: "Santiago Penedo"
+year: "2018"
+kind: method
+topics: ["Rainfall-Runoff modelling"]
+software: ["JAMS"]
+keywords: ["rainfall-runoff", "water balance", "nutrient transport", "hydrological response units"]
 ---
-
-# J2000-S (water and nutrient balance model)
 
 *Posted 2018-06-18* · Category: Rainfall-Runoff modelling
 
-**Prepared by: Santiago Penedo**
-
----
-
-**1. Background**
+## Background
 
 J2000 is a physically-based and fully distributed hydrological model developed by Krause (2001) to understand and describe the hydrological processes taking place at the basin level. J2000 was designed for dynamic simulations of water transport in meso- to macro-scale river basins (Krause 2001).
 
@@ -23,9 +24,7 @@ Fink et al. (2007) worked on the enhancement of the J2000 into the J2000-S model
 
 The models work within the Java-based modeling framework JAMS (Jena Adaptable Modeling System; Kralisch & Krause 2006; Kralisch et al. 2007). The modular and object-oriented structure of the modeling system allows a customized selection or adaptation of the components, like for example the choice between different evapotranspiration equations or modifications depending on data availability and modelling approach.
 
----
-
-**2. Principle**
+## Principle
 
 The water pathways are calculated on the basis of the Hydrological Response Units (HRUs). The HRU concept was first proposed by Leavesley et al. (1983) based on homogeneous topological modeling entities. Later, the concept was revisited by Flügel (1996) suggesting HRUs as distributive heterogeneously units with homogeneous land use and pedotopogeological characteristics controlling water dynamics. The latter spatial distribution concept of HRUs provides the possibility to simulate land use changes, even on the field scale and was, therefore, included in the J2000 model.
 
@@ -52,14 +51,10 @@ The following image depicts the main routines and their interaction with the J20
 
 ![]({{ site.baseurl }}/assets/uploads/2018_06_j2000-530x334.png)
 
----
-
-**3. Manual**
+## Manual
 
 A wiki is available online explaining the routines and their mathematical equations, data format and basic information to run the model ([here](http://jams.uni-jena.de/ilmswiki/index.php/Water_and_Nutrient_Balance_Model_J2000-S)).
 
----
-
-**4. Example**
+## Example
 
 Fink et al. (2007) published a paper on the development and application of the model in the context of the EU Water Framework Directive ([here](https://www.adv-geosci.net/11/123/2007/)).

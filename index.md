@@ -5,10 +5,31 @@ nav_order: 1
 permalink: /
 ---
 
-# D2D Toolbox
-*Natural Resources and Development – Data to Decision Toolbox*
+<div class="d2d-hero">
+  <div>
+    <h1>From data to decisions in water and natural resources management</h1>
+    <p class="lead">The D2D Toolbox collects tested methods, models, open data sources and learning material developed at ITT and its partner universities – organised along the chain from data collection to knowledge transfer.</p>
+    <div class="d2d-actions">
+      <a class="btn-d2d" href="{{ '/toolbox/' | relative_url }}">Browse the toolbox</a>
+      <a class="btn-d2d secondary" href="{{ '/toolbox/public-domain-data/' | relative_url }}">Open data sources</a>
+      <a class="btn-d2d secondary" href="{{ '/new-tools-submission/' | relative_url }}">Submit a tool</a>
+    </div>
+  </div>
+  <div class="hero-logo"><img src="{{ '/assets/brand/d2d_logo_hero.svg' | relative_url }}" alt="D2D Toolbox – Data to Decision"></div>
+</div>
 
-**1. Background**
+<div class="d2d-flow"><span class="step">Public domain data</span><span class="arrow">›</span><span class="step">Data collection</span><span class="arrow">›</span><span class="step">Data analysis</span><span class="arrow">›</span><span class="step">Data processing</span><span class="arrow">›</span><span class="step">Information creation</span><span class="arrow">›</span><span class="step">Knowledge transfer</span></div>
+
+{% include stage_cards.html %}
+
+<p class="d2d-section-title">Projects</p>
+<ul class="d2d-cards">
+<li><a class="d2d-card c-ink" href="{{ '/Introduction/' | relative_url }}"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h6l2 2h10v10H3z"/><path d="M3 7V5h7"/></svg><h3>Water-Sensitive Infrastructure Development</h3><p>Twelve tools from the PUW project for polycentric urban water management in South-East Asia – from stakeholder mapping to hydraulic modelling.</p></a></li>
+</ul>
+
+<p class="d2d-section-title">About</p>
+
+## Background
 
 Water, energy, and food security become one of the key challenges and a major concern for both science and policy. It is generally acknowledged that an improved management of the available water and natural resources can be achieved by enhancing the science-policy interface and by linking research and innovation more systematically. However, the intercommunication of research needs and research results between policy-makers and researchers is often inefficient, especially in developing countries. The gap between science and policy can be bridged by enhancing the interfaces between policymakers and researchers using innovative approaches of co-design to establish a Knowledge and Innovation Platform (KIP).
 
@@ -21,7 +42,7 @@ For this purpose, the D2D Toolbox is designed as a platform to provide scientist
 
 ---
 
-**2. Development of the Toolbox**
+## Development of the Toolbox
 
 The D2D Toolbox provides an overview of available data, methods, and tools regarding the assessment modeling and scenarios of water and natural resources often need for monitoring or reaching the sustainable development goals.
 
@@ -37,7 +58,7 @@ Each Toolbox will be developed in cooperation with relevant decision makers and 
 
 ---
 
-**3. Field of actions of the Toolbox**
+## Field of actions of the Toolbox
 
 ![]({{ site.baseurl }}/assets/uploads/2018_06_toolboxfieldofactions-530x388.png)
 
@@ -45,9 +66,13 @@ Each Toolbox will be developed in cooperation with relevant decision makers and 
 
 ---
 
-**4. Implementation of the Toolbox**
+## Implementation of the Toolbox
 
 The D2D Toolbox will be developed for certain pilot river basins together with long-term local partners of the ITT joining local and international research partners as well as local and international implementing institutions (typically a public authority at or under the responsible ministry).
 
 ![]({{ site.baseurl }}/assets/uploads/2018_06_toolboxpicture6.jpg)
 ***Figure 5: Current case studies where the ITT has partners and the Toolbox could be implemented***
+
+<p class="d2d-section-title">Contribute</p>
+
+The toolbox grows with contributions from staff, students and partners. See [New tools submission]({{ '/new-tools-submission/' | relative_url }}) for the template and the contact.

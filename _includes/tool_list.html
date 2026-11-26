@@ -1,0 +1,11 @@
+{% assign tools = site.pages | where: "parent", page.title | where: "layout", "tool" | sort: "title" %}
+<table class="d2d-catalogue">
+<thead><tr><th>Tool</th><th>Type</th><th>Prepared by</th></tr></thead>
+<tbody>
+{% for t in tools %}<tr>
+<td><a class="tool" href="{{ t.url | relative_url }}">{{ t.title }}</a><span class="sum">{{ t.summary }}</span>
+{% if t.keywords.size > 0 %}<div style="margin-top:.35rem">{% for k in t.keywords %}<span class="chip">{{ k }}</span>{% endfor %}</div>{% endif %}</td>
+<td><span class="badge badge-{{ t.kind }}">{{ t.kind }}</span></td>
+<td class="by">{% if t.authors != "" %}{{ t.authors }}{% else %}–{% endif %}{% if t.year != "" %}<br><span style="font-size:.78rem">{{ t.year }}</span>{% endif %}</td>
+</tr>{% endfor %}
+</tbody></table>

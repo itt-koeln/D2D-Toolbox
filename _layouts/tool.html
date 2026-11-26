@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="tool-head">
+  <div class="crumbs"><a href="{{ '/toolbox/' | relative_url }}">D2D Toolbox</a> › <a href="{{ page.parent | slugify | prepend: '/toolbox/' | append: '/' | relative_url }}">{{ page.parent }}</a></div>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}<p class="summary">{{ page.summary }}</p>{% endif %}
+  <dl class="tool-meta">
+    <dt>Type</dt><dd><span class="badge badge-{{ page.kind }}">{{ page.kind }}</span>{% if page.topics.size > 0 %} &nbsp;·&nbsp; {{ page.topics | join: ", " }}{% endif %}</dd>
+    {% if page.authors != "" %}<dt>Prepared by</dt><dd>{{ page.authors }}</dd>{% endif %}
+    {% if page.year != "" %}<dt>Published</dt><dd>{{ page.year }}</dd>{% endif %}
+    {% if page.software.size > 0 %}<dt>Software</dt><dd>{% for s in page.software %}<span class="chip">{{ s }}</span>{% endfor %}</dd>{% endif %}
+    {% if page.keywords.size > 0 %}<dt>Keywords</dt><dd>{% for k in page.keywords %}<span class="chip">{{ k }}</span>{% endfor %}</dd>{% endif %}
+  </dl>
+</div>
+{{ content }}

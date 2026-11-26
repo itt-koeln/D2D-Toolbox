@@ -1,31 +1,29 @@
 ---
-layout: default
+layout: tool
 title: "Rainwater harvesting potential using Multi Criteria Decision Analysis (MCDA) in GIS"
 parent: Data Processing
 grand_parent: D2D Toolbox
 nav_order: 13
 permalink: /toolbox/data-processing/rainwater-harvesting-potential-using-multi-criteria-decision/
+summary: "Guide to mapping rainwater harvesting suitability by combining physical and socioeconomic GIS layers via weighted linear combination and Boolean constraints."
+authors: "Zryab Babker"
+year: "2018"
+kind: method
+topics: []
+software: ["ArcGIS"]
+keywords: ["rainwater harvesting", "multi-criteria decision analysis", "weighted linear combination", "suitability mapping"]
 ---
 
-# Rainwater harvesting potential using Multi Criteria Decision Analysis (MCDA) in GIS
-
-*Posted 2018-06-21*
-
-**Prepared by: Zryab Babker                                                   ![]({{ site.baseurl }}/assets/uploads/2018_06_gis.jpg)**
-
----
-
-**1. Background**
+## Background
 
 The identification of potential sites for rainwater harvesting is an important step towards maximizing water availability and land productivity especially in water-scarce countries in arid and semi-arid regions. Geographic Information System (GIS) is powerful tools, which is used for pre-processing and then map creation of factors, which directly influence the process of selecting RWH locations. These maps are to be further processed and integrated together to produce one map for MAR suitable locations after taking into consideration all constraints.
 
 **Multi-Criteria Decision Analysis (MCDA)** techniques in GIS environment is important for water resources management and used to compline different layers of special data representing the criteria and specify how those layers are combined. A combination of two methods of MCDA technique namely **Weight Liner Combination (WLC)** and **Boolean technique** which is implemented in ArcGIS, can be used for this objective. They can be used as well to check the suitability of the place for groundwater recharge among others. However, based on the review of the available studies in this topic, the selection of suitable thematic layers, the proper assignment, and analysis of weights for those layers as well as adopting realistic suitability criteria is the key to the success of selecting suitable locations for RWH structures.
 
----
+## Principle
 
-**2. Principle**
 **The boolean technique** is initially introduced by Robinov (1989) and is used to obtain constraints’ map using the variables ‘true or false’. A value of 1 will be assigned to each location specifying whether it is fulfilling a certain condition and 0 if it is not. This method is used to eliminate some sites that are considered unsuitable for RWH. Meanwhile, weight linear combination method (WLC) involves classifying each factor map to classes and assigning a score to each class depending on its suitability to locate RWH site. A weight will be assigned to each factor layer, which represents its comparative importance, and then the score of each map at each location will be combined to obtain a final map whereby an overall suitability score will be identified based on the following equation[[1]](#_ftn1):
-**![]({{ site.baseurl }}/assets/uploads/2018_06_equation.jpg)**
+### ![]({{ site.baseurl }}/assets/uploads/2018_06_equation.jpg)
 
 Where Sj is the final suitability score in each pixel, Xij is the suitability of the ith cell with respect to the jth layer, and Wi is a normalized weight as the summation of Wi equal to 1.
 
@@ -36,9 +34,8 @@ Comparing this method with other classical methods like SCS-CN method, it gives 
 --------------------------------------------
 [[1]](#_ftnref1) Malczewski, J., 1999. GIS and Multicriteria Decision Analysis. John Wiley & Sons,Inc.. 392 pp.
 
----
+## Manual
 
-**3. Manual**
 **Input data:**
 
 A mixed of physical and socioeconomic criteria (factors) is needed for selecting the suitable sites for the RWH.
@@ -70,15 +67,11 @@ A buffer zone will be applied to all socioeconomic factors according to their ec
 
 ![]({{ site.baseurl }}/assets/uploads/2018_06_mar.jpg)
 
----
-
-**4. Exercise**
+## Exercise
 
 This procedure can be applied to any selected case study if the needed input data are available
 
----
-
-**5. Example**
+## Example
 
 Many case studies are available in the literature which use these techniques to select suitable locations for either Rainwater Harvesting (RWH) or Managed Aquifer Recharge (MAR).
 

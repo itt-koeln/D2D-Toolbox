@@ -1,15 +1,18 @@
 ---
-layout: default
+layout: tool
 title: "Water Security and Climate Extremes: Building big data into action (WaterSec) - Pilot project for developing a water security toolbox in Ethiopia and Sudan"
 parent: Information Creation
 grand_parent: D2D Toolbox
 nav_order: 1
 permalink: /toolbox/information-creation/water-security-and-climate-extremes-building-big-data-into-a/
+summary: "Project page describing the WaterSec pilot toolbox for water security analysis in the Dinder and Rahad basin (Ethiopia/Sudan) using public remote sensing data."
+authors: "Zryab Babker"
+year: "2019"
+kind: training
+topics: []
+software: []
+keywords: ["water security", "precipitation products", "evapotranspiration", "water balance"]
 ---
-
-# Water Security and Climate Extremes: Building big data into action (WaterSec) - Pilot project for developing a water security toolbox in Ethiopia and Sudan
-
-*Posted 2019-05-28*
 
 ### **Prepared by: Zryab Babker**
 
@@ -53,7 +56,7 @@ The WaterSec project aims to close the above-mentioned data and knowledge gap by
 
 ---
 
-**Current results**
+### Current results
 
 - **An inventory was done to collect the basic information about the basin and serve as a base for deep analysis (see the attachment in the following link: [Dinder-Rahad Basins Inventory]({{ site.baseurl }}/assets/uploads/2019_05_dinderrahadbasinsinventory.pdf)).**
 
@@ -165,7 +168,7 @@ Data sources: WAPOR https://wapor.apps.fao.org/catalog .*
 
 ---
 
-**References**
+### References
 
 Ashouri, H., Hsu, K.L., Sorooshian, S., Braithwaite, D.K., Knapp, K.R., Cecil, L.D., Nelson, B.R., Prat, O.P., 2015. PERSIANN-CDR: Daily Precipitation Climate Data Record from Multi-satellite Observations for Hydrological and Climate Studies. Bull. Amer. Meteor. Soc. 96 (1), 69–83. 10.1175/BAMS-D-13-00068.1.
 

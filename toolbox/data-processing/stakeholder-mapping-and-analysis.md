@@ -1,19 +1,20 @@
 ---
-layout: default
+layout: tool
 title: "Stakeholder mapping and analysis"
 parent: Data Processing
 grand_parent: D2D Toolbox
 nav_order: 17
 permalink: /toolbox/data-processing/stakeholder-mapping-and-analysis/
+summary: "Guide to stakeholder analysis and mapping for policy and institutional reform, covering identifying, analyzing, mapping, and prioritizing stakeholders via Excel-based charts and grids."
+authors: "Mahsa Motlagh"
+year: "2018"
+kind: method
+topics: ["Stakeholder mapping"]
+software: ["Excel"]
+keywords: ["stakeholder analysis", "stakeholder mapping", "policy reform", "influence-salience matrix"]
 ---
-
-# Stakeholder mapping and analysis
 
 *Posted 2018-06-21* · Category: Stakeholder mapping
-
-**Prepared by: Mahsa Motlagh**
-
----
 
 Stakeholder Analysis is a methodology used to facilitate institutional and policy reform processes by accounting for and often incorporating the needs of those who have a ‘stake’ or an interest in the reforms under consideration. Although Stakeholder Analysis originated from the business sciences, it has evolved into a field that now incorporates economics, political science, game and decision theory, and environmental sciences. Current models of Stakeholder Analysis apply a variety of tools on both qualitative and quantitative data to understand stakeholders, their positions, influence with other groups, and their interest in a particular reform.
 

@@ -1,0 +1,62 @@
+// D2D Toolbox – custom styles
+$d2d-blue: #0A4C9C; $d2d-orange: #E8561C; $d2d-green: #0E8C3A; $d2d-ink: #14213d;
+
+.site-logo { background-position: left center; }
+.site-header { min-height: 4.2rem; }
+@media (min-width: 50rem) { .site-header { min-height: 5rem; } .site-logo { background-size: auto 3.1rem; } }
+
+// ---- hero (home) ----
+.d2d-hero { display: grid; grid-template-columns: 1fr; gap: 1.5rem; align-items: center; padding: 1rem 0 1.5rem; border-bottom: 1px solid #e3e7ee; margin-bottom: 1.5rem;
+  @media (min-width: 50rem) { grid-template-columns: 1.4fr 1fr; gap: 2.5rem; } }
+.d2d-hero h1 { font-size: 2.1rem !important; line-height: 1.15; margin: 0 0 .6rem; color: $d2d-ink; }
+.d2d-hero p.lead { font-size: 1.1rem; color: #4a5260; margin: 0 0 1rem; }
+.d2d-hero .hero-logo { text-align: center; } .d2d-hero .hero-logo img { max-width: 260px; width: 100%; }
+.d2d-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin: .5rem 0 0; }
+.btn-d2d { display: inline-block; padding: .55rem 1rem; border-radius: 6px; font-weight: 600; text-decoration: none !important; background: $d2d-blue; color: #fff !important; border: 1px solid $d2d-blue; }
+.btn-d2d:hover { background: darken($d2d-blue, 7%); }
+.btn-d2d.secondary { background: #fff; color: $d2d-blue !important; }
+.btn-d2d.secondary:hover { background: #eef3fa; }
+
+// ---- stage flow + cards ----
+.d2d-flow { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; font-size: .85rem; color: #4a5260; margin: 0 0 1rem; }
+.d2d-flow span.step { background: #eef3fa; border: 1px solid #d9e2f1; border-radius: 999px; padding: .15rem .7rem; color: $d2d-ink; font-weight: 600; }
+.d2d-flow span.arrow { color: $d2d-orange; font-weight: 700; }
+.d2d-cards { display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1rem 0 2rem; padding: 0; list-style: none;
+  @media (min-width: 40rem) { grid-template-columns: repeat(2, 1fr); } @media (min-width: 66rem) { grid-template-columns: repeat(3, 1fr); } }
+.d2d-card { position: relative; display: block; padding: 1.1rem 1.1rem 1rem; border: 1px solid #e3e7ee; border-top: 4px solid $d2d-blue; border-radius: 8px; background: #fff; text-decoration: none !important; color: inherit !important; transition: box-shadow .15s, transform .15s; min-height: 100%; }
+.d2d-card:hover { box-shadow: 0 6px 18px rgba(20,33,61,.10); transform: translateY(-2px); }
+.d2d-card.c-orange { border-top-color: $d2d-orange; } .d2d-card.c-green { border-top-color: $d2d-green; } .d2d-card.c-ink { border-top-color: $d2d-ink; }
+.d2d-card .icon { width: 34px; height: 34px; margin-bottom: .5rem; color: $d2d-blue; } .c-orange .icon { color: $d2d-orange; } .c-green .icon { color: $d2d-green; } .c-ink .icon { color: $d2d-ink; }
+.d2d-card h3 { margin: 0 0 .3rem !important; font-size: 1.05rem !important; color: $d2d-ink; }
+.d2d-card p { margin: 0; font-size: .9rem; color: #4a5260; line-height: 1.45; }
+.d2d-card .count { position: absolute; top: .9rem; right: .9rem; font-size: .75rem; font-weight: 700; color: $d2d-blue; background: #eef3fa; border-radius: 999px; padding: .1rem .55rem; }
+
+// ---- tool catalogue (stage pages) ----
+.d2d-catalogue { width: 100%; border-collapse: collapse; margin: 1rem 0 2rem; font-size: .92rem; }
+.d2d-catalogue th { text-align: left; font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; color: #5b6470; border-bottom: 2px solid #e3e7ee; padding: .5rem .6rem; }
+.d2d-catalogue td { padding: .7rem .6rem; border-bottom: 1px solid #edf0f4; vertical-align: top; }
+.d2d-catalogue tr:hover td { background: #f8fafd; }
+.d2d-catalogue a.tool { font-weight: 600; color: $d2d-blue; }
+.d2d-catalogue .sum { color: #4a5260; display: block; margin-top: .15rem; }
+.d2d-catalogue .by { white-space: nowrap; color: #5b6470; font-size: .85rem; }
+.badge { display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; border-radius: 4px; padding: .12rem .45rem; line-height: 1.4; white-space: nowrap; }
+.badge-method { background: #eef3fa; color: $d2d-blue; } .badge-software { background: #fdeee6; color: darken($d2d-orange, 8%); }
+.badge-dataset { background: #e9f6ee; color: darken($d2d-green, 4%); } .badge-training { background: #f3eefc; color: #5b3fa0; } .badge-reference { background: #f0f2f5; color: #3c4450; }
+.chip { display: inline-block; font-size: .78rem; background: #f3f5f9; border: 1px solid #e3e7ee; border-radius: 999px; padding: .05rem .55rem; margin: 0 .25rem .25rem 0; color: #3c4450; }
+
+// ---- tool page header ----
+.tool-head { margin: 0 0 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid #e3e7ee; }
+.tool-head .crumbs { font-size: .8rem; color: #5b6470; margin-bottom: .25rem; }
+.tool-head h1 { margin: 0 0 .4rem !important; }
+.tool-head p.summary { font-size: 1.05rem; color: #3c4450; margin: 0 0 .8rem; }
+.tool-meta { display: grid; grid-template-columns: max-content 1fr; gap: .3rem 1rem; font-size: .88rem; background: #f6f8fb; border: 1px solid #e3e7ee; border-left: 4px solid $d2d-orange; border-radius: 6px; padding: .7rem .9rem; }
+.tool-meta dt { font-weight: 700; color: $d2d-ink; margin: 0; } .tool-meta dd { margin: 0; color: #2b2f36; }
+
+// ---- content polish ----
+.main-content img { max-width: 100%; height: auto; border-radius: 4px; }
+.main-content figure { margin: 1rem 0; } .main-content figcaption, .main-content em.caption { font-size: .85rem; color: #5b6470; }
+.main-content table { font-size: .9rem; } .main-content td p { margin: 0 0 .3rem; }
+.main-content h2 { margin-top: 2.2rem; padding-bottom: .25rem; border-bottom: 1px solid #edf0f4; }
+.main-content hr { border-color: #e3e7ee; }
+.site-footer { font-size: .78rem; color: #5b6470; }
+.d2d-section-title { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: $d2d-orange; font-weight: 700; margin: 1.6rem 0 .3rem; }

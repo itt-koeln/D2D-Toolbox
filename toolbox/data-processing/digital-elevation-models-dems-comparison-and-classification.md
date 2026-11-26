@@ -1,25 +1,24 @@
 ---
-layout: default
+layout: tool
 title: "Digital Elevation Models (DEMs) comparison and classification"
 parent: Data Processing
 grand_parent: D2D Toolbox
 nav_order: 4
 permalink: /toolbox/data-processing/digital-elevation-models-dems-comparison-and-classification/
+summary: "Introduces DEM use in GIS for deriving elevation and slope, and outlines sources and accuracy assessment of DEM products."
+authors: "Samah Mahmood Saif"
+year: "2018"
+kind: method
+topics: ["Geoprocessing"]
+software: ["ArcGIS", "QGIS", "Excel"]
+keywords: ["digital elevation model", "topography", "slope mapping", "DEM accuracy"]
 ---
-
-# Digital Elevation Models (DEMs) comparison and classification
 
 *Posted 2018-06-21* · Category: Geoprocessing
 
-**Prepared by: Samah Mahmood Saif**
-
----
-
 Topography is a term used to define and describe the latitude, longitude, elevation of different landforms. Moreover, It studies the geology and geography of land features. Topographic data could be represented in the form of contour maps. Nowadays DEMs created from satellite images are offering the topographic data and maps as one of the remote sensing advantages. The data are available with different spatial coverage (resolution) and from various sources. DEMs are considered as a useful source of data, which save time and cost for the researchers and stakeholders compared to the extensive efforts and financial resources needed for the field survey works (Jacobsen, 2002). Moreover, they are easily and freely accessed (Gorokhovich and Voustianiouk, 2006) and could be downloaded from online dissemination sites.  That’s why DEMs have been used commonly in different development and environmental projects (Guth, 2010). The integration of DEMs in GIS provides a new useful advantage for using DEMs in various scientific and engineering issues (Zhou and Liu, 2004).
 
----
-
-**2. Principle**
+## Principle
 
 DEMs can be processed in GIS to provide the major input data (Zhou and Liu, 2004).
 
@@ -29,9 +28,7 @@ The accessibility of different DEMs products creates a competition between each 
 
 ![]({{ site.baseurl }}/assets/uploads/2018_06_dem2.jpg)
 
----
-
-**3. Manual**
+## Manual
 
 Input data:
 
@@ -42,15 +39,11 @@ Input data:
 
 ArcGIS, QGIS, Excel
 
----
-
-**4. Exercise**
+## Exercise
 
 The main objective of this paper is to give a primary introduction for the Digital Elevation Models (DEMs) and to clarify the ability to use DEMs in GIS to calculate some parameters e.g. elevation, slope parameters for any case study. **No exercise is available.**
 
----
-
-**5. Example**
+## Example
 
 Many case studies are available related to DEMs and its uses. Additionally, you can visit this **link** to have information about using DEMs to create slope maps in GIS program offered by **youtube****(**[***https://www.youtube.com/watch?v=bKquRYn3Yig***](https://www.youtube.com/watch?v=bKquRYn3Yig)***).***
 The available websites are offering DEMs products with a different resolution.

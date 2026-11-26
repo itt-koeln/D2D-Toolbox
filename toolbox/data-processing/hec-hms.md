@@ -1,17 +1,20 @@
 ---
-layout: default
+layout: tool
 title: "HEC-HMS"
 parent: Data Processing
 grand_parent: D2D Toolbox
 nav_order: 6
 permalink: /toolbox/data-processing/hec-hms/
+summary: "Overview of HEC-HMS, a open-source rainfall-runoff modelling program for simulating watershed hydrology, with HEC-GeoHMS for geospatial setup."
+authors: "Mohammed Basheer"
+year: "2018"
+kind: software
+topics: ["Rainfall-Runoff modelling"]
+software: ["HEC-HMS", "HEC-GeoHMS", "R", "Python", "ArcGIS"]
+keywords: ["rainfall-runoff", "hydrologic modelling", "watershed simulation"]
 ---
 
-# HEC-HMS
-
 *Posted 2018-06-13* · Category: Rainfall-Runoff modelling
-
-**Prepared by: Mohammed Basheer**
 
 ![]({{ site.baseurl }}/assets/uploads/2018_06_hechms.png)
 

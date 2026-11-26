@@ -1,13 +1,18 @@
 ---
-layout: default
+layout: tool
 title: "Educational movies"
 parent: Knowledge Transfer
 grand_parent: D2D Toolbox
 nav_order: 1
 permalink: /toolbox/knowledge-transfer/educational-movies/
+summary: "Curated list of YouTube documentary films from ITT and partners on water and land case studies (Azraq, Ethiopia, Gezira, Tekezze-Atbara, CapWater)."
+authors: "Prepared by ITT (Institute for Technology and Resources Management in the Tropics and Subtropics) and partners"
+year: "2018"
+kind: training
+topics: ["Educational movies"]
+software: []
+keywords: ["educational films", "integrated water resources management", "knowledge transfer", "water and land nexus"]
 ---
-
-# Educational movies
 
 *Posted 2018-09-27* · Category: Educational movies
 

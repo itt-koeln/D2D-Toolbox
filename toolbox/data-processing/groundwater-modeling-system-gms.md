@@ -1,21 +1,20 @@
 ---
-layout: default
+layout: tool
 title: "Groundwater Modeling System-GMS"
 parent: Data Processing
 grand_parent: D2D Toolbox
 nav_order: 5
 permalink: /toolbox/data-processing/groundwater-modeling-system-gms/
+summary: "Graphical environment for building and running groundwater simulations, interfacing with MODFLOW, MT3DMS, MODPATH, PEST and other numerical models."
+authors: "Lamees Abdulaziz"
+year: "2019"
+kind: software
+topics: []
+software: ["GMS", "MODFLOW", "MT3DMS", "MODPATH", "PEST"]
+keywords: ["groundwater modeling", "flow and transport simulation", "particle tracking", "geostatistics"]
 ---
 
-# Groundwater Modeling System-GMS
-
-*Posted 2019-05-28*
-
-**Prepared by: Lamees Abdulaziz**
-
----
-
-**1. Background**
+## Background
 
 The Groundwater Modeling System (GMS) is a comprehensive graphical user environment for performing groundwater simulations. The entire GMS system consists of a graphical user interface (the GMS program) and a number of analysis codes (MODFLOW, MT3DMS, etc.). The GMS interface is developed by Aquaveo, LLC in Provo, Utah.
 
@@ -23,9 +22,7 @@ GMS was designed as a comprehensive modeling environment. Several types of model
 
 More information [here](https://www.aquaveo.com/software/gms-groundwater-modeling-system-introduction).
 
----
-
-**2. Principle**
+## Principle
 
 GMS includes a number of numerical models programs that are separate from GMS that are used to run an analysis on simulation. The simulation can be built in GMS, and then run through the numerical model program. GMS can then read in and display the results of the analysis.
 
@@ -48,22 +45,16 @@ MT3DMS (Modular Transport, 3-Dimensional, Multi-Species model) is a modular thre
 
 T-PROGS (Transition PRObability GeoStatistical) software developed by Steven Carle. The T-PROGS software is used to perform transition probability geostatistics on borehole data. The output of the T-PROGS software is a set of N material sets on a 3D grid. Each of the material sets is conditioned to the borehole data and the materials proportions and transitions between the boreholes following the trends observed in the borehole data. These material sets can be used for stochastic simulations with MODFLOW.
 
----
-
-**3. Manual**
+## Manual
 
 The limited open source version for GMS software can be downloaded from [here](https://www.aquaveo.com/downloads-gms) and more advanced versions for purchasing can be found [here](https://www.aquaveo.com/software/gms-pricing).
 
 GMS manual can be found [here](http://gmsdocs.aquaveo.com/GMS_User_Manual_v10.3.pdf).
 
----
-
-**4. Exercise**
+## Exercise
 
 Step by step tutorials, videos and more can be found [here](https://www.aquaveo.com/software/gms-learning).
 
----
-
-**5. Example**
+## Example
 
 Samples of research, papers, publications, and other articles citing the Groundwater Modeling System (GMS) [here](https://www.aquaveo.com/software/gms-research-citations).

@@ -1,13 +1,18 @@
 ---
-layout: default
+layout: tool
 title: "Online courses platforms"
 parent: Knowledge Transfer
 grand_parent: D2D Toolbox
 nav_order: 5
 permalink: /toolbox/knowledge-transfer/online-courses-platforms/
+summary: "Directory of online course platforms (UN E-learning, Class Central, Open University, Open2Study, Hydrolearn) for knowledge transfer on climate and water topics."
+authors: ""
+year: "2018"
+kind: reference
+topics: ["Online cources materials"]
+software: []
+keywords: ["online courses", "knowledge transfer", "climate change education", "hydrology training"]
 ---
-
-# Online courses platforms
 
 *Posted 2018-10-22* · Category: Online cources materials
 

@@ -8,6 +8,8 @@ permalink: /toolbox/public-domain-data/
 
 # Public Domain Data
 
+Open datasets that the toolbox builds on, grouped by theme. Each entry gives the provider, coverage, resolution and a direct link. Suggest additions via [New tools submission]({{ "/new-tools-submission/" | relative_url }}).
+
 ![]({{ site.baseurl }}/assets/uploads/2018_06_publicdomainsdataicon1-530x126.png)
 
 The ITT Toolbox integrates data from open-source (global and regional) databases with data from local and national monitoring networks. This includes Data in the following fields:

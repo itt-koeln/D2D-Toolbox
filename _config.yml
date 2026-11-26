@@ -1,9 +1,62 @@
 title: D2D Toolbox
-description: Natural Resources and Development – Data to Decision Toolbox (ITT, TH Köln)
+description: "Data to Decision Toolbox – methods, models, data sources and learning material for water and natural resources management"
 remote_theme: just-the-docs/just-the-docs
-
 url: "https://itt-koeln.github.io"
 baseurl: "/D2D-Toolbox"
 
 plugins:
   - jekyll-remote-theme
+
+logo: "/assets/brand/d2d_logo_header.svg"
+favicon_ico: "/favicon.ico"
+color_scheme: d2d
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  rel_url: true
+  button: false
+
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+enable_copy_code_button: true
+
+aux_links:
+  "Submit a tool": "/new-tools-submission/"
+aux_links_new_tab: false
+
+nav_external_links:
+  - title: "ITT – TH Köln"
+    url: https://www.th-koeln.de/itt
+    hide_icon: false
+
+footer_content: "D2D Toolbox · Institute for Technology and Resources Management in the Tropics and Subtropics (ITT), TH Köln. Content contributed by ITT staff and students."
+
+callouts_level: quiet
+callouts:
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  warning:
+    title: Warning
+    color: yellow
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - _site/
+  - spaces_export/
+  - Gemfile
+  - Gemfile.lock
+  - README.md

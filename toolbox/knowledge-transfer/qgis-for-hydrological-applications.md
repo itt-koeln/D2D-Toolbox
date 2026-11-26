@@ -1,20 +1,24 @@
 ---
-layout: default
+layout: tool
 title: "QGIS for Hydrological Applications"
 parent: Knowledge Transfer
 grand_parent: D2D Toolbox
 nav_order: 7
 permalink: /toolbox/knowledge-transfer/qgis-for-hydrological-applications/
+summary: "Free step-by-step course teaching QGIS for preparing hydrological model inputs, covering digitizing, interpolation, reprojection, map algebra and catchment delineation."
+authors: "Dr. Hans van der Kwast"
+year: "2020"
+kind: training
+topics: []
+software: ["QGIS"]
+keywords: ["GIS preprocessing", "catchment delineation", "hydrological modelling", "open source"]
 ---
-
-# QGIS for Hydrological Applications
-
-*Posted 2020-05-04*
 
 In this era of open source software and free data, Quantum Geographic Information System (QGIS) can be a useful tool for preparing the input of models and tools.
 
 This course is given by [Dr. Hans van der Kwast,](https://www.un-ihe.org/hans-van-der-kwast) a Senior Lecturer in Ecohydrological Modelling at the Water Resources and Ecosystems Department at IHE Delft Institute for Water Education.
-**Learning objectives**
+### Learning objectives
+
 ***After following these step-by-step tutorials you will be able to:***
   Use QGIS in its main functionalities, also in conjunction with plugins
   Digitize features from a scanned map or satellite image

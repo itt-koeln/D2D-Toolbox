@@ -1,29 +1,26 @@
 ---
-layout: default
+layout: tool
 title: "Soil moisture estimation"
 parent: Data Processing
 grand_parent: D2D Toolbox
 nav_order: 16
 permalink: /toolbox/data-processing/soil-moisture-estimation/
+summary: "Estimates agricultural drought using the Soil Water Deficit Index (SWDI) from soil moisture (e.g., SMAP) and precipitation data, based on available water content."
+authors: "Elmoiz Yousif Elnayer Taha"
+year: "2018"
+kind: method
+topics: []
+software: ["ArcGIS", "QGIS", "Excel"]
+keywords: ["soil moisture", "agricultural drought", "soil water deficit index", "water balance"]
 ---
-
-# Soil moisture estimation
-
-*Posted 2018-06-21*
-
-**Prepared by: Elmoiz Yousif Elnayer Taha**
 
 ![]({{ site.baseurl }}/assets/uploads/2018_06_soilmositure.jpg)
 
----
-
-**1. Background**
+## Background
 
 Among all the hydrologic variables, soil moisture is one of the least measured variables for understanding droughts at large spatial scales (Manohar et al., 2016), increased interest in soil moisture information for applications in such disciplines as hydrology, meteorology, and agriculture has necessitated an overview of both existing and proposed methods for determination of soil moisture([Schmugge](https://agupubs.onlinelibrary.wiley.com/action/doSearch?ContribAuthorStored=Schmugge%2C+T+J) et al., 1980). Soil moisture may be measured by a variety of methods, but unfortunately, there is no comprehensive, national network of soil moisture monitoring instruments (Keyantash and Dracup. 2002). Droughts are one of the costliest natural disasters and globally affect a large number of people and their livelihoods every year.
 
----
-
-**2. Principle**
+## Principle
 
 There are many good reasons for the study of soil and plant water relations. The amount of water in soil and plants plays a fundamental role in the control of land surface processes now proving so important to understanding local and regional climatology, Estimation of SM is considered very useful of many water- budgeting operations such as agricultural applications (Ahmad et al., 2017; Peng and Loew, 2017).  The water balance is an accounting of the inputs and outputs of water. The water balance of a place, whether it be an agricultural field, watershed, or continent, can be determined by calculating the input, output, and storage changes of water at the Earth's surface. The major input of water is from precipitation and output is evapotranspiration. The geographer (C. W. Thornthwaite 1899-1963) pioneered the water balance approach to water resource analysis. He and his team used the water-balance methodology to assess water needs for irrigation and other water-related issues.
 
@@ -37,9 +34,7 @@ Soil Water Deficit Index SWDI developed by (Martinez et al., 2015) It has shown 
 
 Where θ is the soil water content. FC denotes field capacity and AWC is the available water content, which is the difference between FC and permanent wilting point (WP), when SWDI is above zero, the soil has a surplus of water; when it equals zero, the soils at the field capacity in terms of water content (i.e., no water deficit and no drought). While negative values indicate agricultural drought and its impacts will depend on the type of crop and the fraction of total available soil water that can be depleted from the root zone before moisture s occurs (Martinez et al., 2016).
 
----
-
-**3. Manual**
+## Manual
 
 **Input data:**
 
@@ -50,16 +45,12 @@ Where θ is the soil water content. FC denotes field capacity and AWC is the ava
 
 GIS: ArcGIS, QGIS, Excel
 
----
-
-**4. Exercise**
+## Exercise
 
 - You can use this index in order to retrieve soil moisture as available water content/or not available for crops in different crop life cycles.
 - No exercise available.
 
----
-
-**5. Example**
+## Example
 
 Many case studies are available:
 
