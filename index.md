@@ -24,7 +24,7 @@ permalink: /
 
 <p class="d2d-section-title">Projects</p>
 <ul class="d2d-cards">
-<li><a class="d2d-card c-ink" href="{{ '/Introduction/' | relative_url }}"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h6l2 2h10v10H3z"/><path d="M3 7V5h7"/></svg><h3>Water-Sensitive Infrastructure Development</h3><p>Twelve tools from the PUW project for polycentric urban water management in South-East Asia – from stakeholder mapping to hydraulic modelling.</p></a></li>
+<li class="d2d-card c-ink"><a class="card-link" href="{{ '/Introduction/' | relative_url }}" aria-label="Water-Sensitive Infrastructure Development"></a><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h6l2 2h10v10H3z"/><path d="M3 7V5h7"/></svg><div class="h">Water-Sensitive Infrastructure Development</div><p>Twelve tools from the PUW project for polycentric urban water management in South-East Asia – from stakeholder mapping to hydraulic modelling.</p></li>
 </ul>
 
 <p class="d2d-section-title">About</p>

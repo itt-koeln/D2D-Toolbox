@@ -23,11 +23,15 @@ $d2d-blue: #0A4C9C; $d2d-orange: #E8561C; $d2d-green: #0E8C3A; $d2d-ink: #14213d
 .d2d-flow span.arrow { color: $d2d-orange; font-weight: 700; }
 .d2d-cards { display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1rem 0 2rem; padding: 0; list-style: none;
   @media (min-width: 40rem) { grid-template-columns: repeat(2, 1fr); } @media (min-width: 66rem) { grid-template-columns: repeat(3, 1fr); } }
-.d2d-card { position: relative; display: block; padding: 1.1rem 1.1rem 1rem; border: 1px solid #e3e7ee; border-top: 4px solid $d2d-blue; border-radius: 8px; background: #fff; text-decoration: none !important; color: inherit !important; transition: box-shadow .15s, transform .15s; min-height: 100%; }
+.d2d-card { position: relative; display: block; margin: 0 !important; padding: 1.1rem 1.1rem 1rem; border: 1px solid #e3e7ee; border-top: 4px solid $d2d-blue; border-radius: 8px; background: #fff; text-decoration: none !important; color: inherit !important; transition: box-shadow .15s, transform .15s; min-height: 100%; }
 .d2d-card:hover { box-shadow: 0 6px 18px rgba(20,33,61,.10); transform: translateY(-2px); }
+.d2d-card:hover .h { color: $d2d-blue; }
 .d2d-card.c-orange { border-top-color: $d2d-orange; } .d2d-card.c-green { border-top-color: $d2d-green; } .d2d-card.c-ink { border-top-color: $d2d-ink; }
 .d2d-card .icon { width: 34px; height: 34px; margin-bottom: .5rem; color: $d2d-blue; } .c-orange .icon { color: $d2d-orange; } .c-green .icon { color: $d2d-green; } .c-ink .icon { color: $d2d-ink; }
-.d2d-card h3 { margin: 0 0 .3rem !important; font-size: 1.05rem !important; color: $d2d-ink; }
+.d2d-card .h { margin: 0 0 .3rem; font-size: 1.05rem; font-weight: 600; color: $d2d-ink; line-height: 1.3; }
+.d2d-card .card-link { position: absolute; inset: 0; z-index: 1; border-radius: 8px; }
+.d2d-cards li::before { content: none !important; }
+.d2d-cards { padding-left: 0 !important; }
 .d2d-card p { margin: 0; font-size: .9rem; color: #4a5260; line-height: 1.45; }
 .d2d-card .count { position: absolute; top: .9rem; right: .9rem; font-size: .75rem; font-weight: 700; color: $d2d-blue; background: #eef3fa; border-radius: 999px; padding: .1rem .55rem; }
 
